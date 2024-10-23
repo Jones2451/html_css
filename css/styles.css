@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #242a32;
+}
+
+header {
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
