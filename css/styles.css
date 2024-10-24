@@ -9,6 +9,7 @@
 :root{
     --bg-body: #242a32;
     --color-primary: #131219;
+    --text-color: #f4f3f3;
 }
 
 html,
@@ -56,5 +57,23 @@ nav a {
 
 .link-container img{
     margin-right: 10px;
-    
+
+}
+
+.card-movies{
+    width: 360px;
+    height: 400px;
+}
+
+.card-movies img{
+    width: 100%;
+}
+
+#card-movies-list {
+    padding: 40px 10px;
+}
+
+.card-movies-description{
+    background-color: var(--color-primary);
+    color: var(--text-color);
 }
